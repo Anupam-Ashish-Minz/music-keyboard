@@ -128,15 +128,21 @@
 
 <h1>music keyboard</h1>
 
-<div class="keyboard">
-	{#each Object.entries(freq) as [key, _]}
-		<button class={key.includes('#') ? 'nonpure' : 'pure'} on:click={() => playNote(key)}
-			>{key}</button
-		>
-	{/each}
+<div class="box">
+	<div class="keyboard">
+		{#each Object.entries(freq) as [key, _]}
+			<button class={key.includes('#') ? 'nonpure' : 'pure'} on:click={() => playNote(key)}
+				>{key}</button
+			>
+		{/each}
+	</div>
 </div>
 
 <style>
+	.box {
+		max-width: 100vw;
+		overflow: scroll;
+	}
 	.keyboard {
 		position: relative;
 		min-width: 300vw;
