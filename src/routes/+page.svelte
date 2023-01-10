@@ -233,6 +233,36 @@
 		<button class="nonpure" on:click={() => playNote('A#5')}>A#5 / Bb5</button>
 		<button class="pure" on:click={() => playNote('B5')}>B5</button>
 	</div>
+
+	<div class="octave">
+		<button class="pure" on:click={() => playNote('C6')}>C6</button>
+		<button class="nonpure" on:click={() => playNote('C#6')}>C#6 / Db6</button>
+		<button class="pure" on:click={() => playNote('D6')}>D6</button>
+		<button class="nonpure" on:click={() => playNote('D#6')}>D#6 / Eb6</button>
+		<button class="pure" on:click={() => playNote('E6')}>E6</button>
+		<button class="pure" on:click={() => playNote('F6')}>F6</button>
+		<button class="nonpure" on:click={() => playNote('F#6')}>F#6 / Gb6</button>
+		<button class="pure" on:click={() => playNote('G6')}>G6</button>
+		<button class="nonpure" on:click={() => playNote('G#6')}>G#6 / Gb6</button>
+		<button class="pure" on:click={() => playNote('A6')}>A6</button>
+		<button class="nonpure" on:click={() => playNote('A#6')}>A#6 / Bb6</button>
+		<button class="pure" on:click={() => playNote('B6')}>B6</button>
+	</div>
+
+	<div class="octave">
+		<button class="pure" on:click={() => playNote('C7')}>C7</button>
+		<button class="nonpure" on:click={() => playNote('C#7')}>C#7 / Db7</button>
+		<button class="pure" on:click={() => playNote('D7')}>D7</button>
+		<button class="nonpure" on:click={() => playNote('D#7')}>D#7 / Eb7</button>
+		<button class="pure" on:click={() => playNote('E7')}>E7</button>
+		<button class="pure" on:click={() => playNote('F7')}>F7</button>
+		<button class="nonpure" on:click={() => playNote('F#7')}>F#7 / Gb7</button>
+		<button class="pure" on:click={() => playNote('G7')}>G7</button>
+		<button class="nonpure" on:click={() => playNote('G#7')}>G#7 / Gb7</button>
+		<button class="pure" on:click={() => playNote('A7')}>A7</button>
+		<button class="nonpure" on:click={() => playNote('A#7')}>A#7 / Bb7</button>
+		<button class="pure" on:click={() => playNote('B7')}>B7</button>
+	</div>
 </div>
 
 <style>
