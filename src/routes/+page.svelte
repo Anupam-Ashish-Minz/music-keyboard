@@ -145,7 +145,7 @@
 	}
 	.keyboard {
 		position: relative;
-		min-width: 300vw;
+		min-width: calc(5rem * 8 * 8);
 	}
 	.pure {
 		line-height: 10rem;
